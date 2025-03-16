@@ -21,7 +21,7 @@ jobs:
           dotnet-version: '9.0'
 
       - name: Restore dependencies
-        run: dotnet restore ./Skel2Json/Skel2Json.csproj
+        run: dotnet restore ./Skel2Json.csproj
 
       - name: Build the project
-        run: dotnet build ./Skel2Json/Skel2Json.csproj --configuration Release
+        run: dotnet build ./Skel2Json.csproj --configuration Release
